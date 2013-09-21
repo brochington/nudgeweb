@@ -1,0 +1,26 @@
+.main-body {
+
+}
+
+.todo-container {
+
+}
+
+.main-logo-container {
+	padding-top: 70px;
+	padding-bottom: 40px;
+	width: 235px;
+	margin: 0 auto;
+}
+
+.todo-block {
+	padding-top: 15px;
+	width: 80%;
+	margin: 0 auto;
+	border:solid gray 1px;
+}
+
+.block-text-inputs {
+	padding-left: 20px;
+}
+
