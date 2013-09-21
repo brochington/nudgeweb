@@ -1,0 +1,82 @@
+[
+{
+"geometry" : {
+"location" : {
+"lat" : 47.605969,
+"lng" : -122.332531
+}
+},
+"icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+"id" : "61d2f4b3426e7a798afbd777e1ad19e0c142162e",
+"name" : "Bartell Drugs Fourth & Madison",
+"opening_hours" : {
+"open_now" : true
+},
+"rating" : 3.7,
+"reference" : "CoQBfQAAACS3YybYdoraVlHuXlUOr3dZBG93KbEf2jBbx_0lhu2URVobcBa4UA2NaSaM83RzeKu2UVvWaYAMkQa-3aGz_eGR1MfTD8ApLv7qc73-GGsykZV6FhJevrg03ZQu2OIxieIPn6rCX3z2JjfAqZ5Lt98t8Lk_2WkVF8oyok4EKbQeEhDEvHgyEeLkPg6NJ5JqaB4bGhSn2PofVF03C8kBdeEBl4Ha4XlZ2Q",
+"types" : [ "pharmacy", "store", "health", "establishment" ],
+"vicinity" : "910 4th Avenue, Seattle"
+},
+{
+"geometry" : {
+"location" : {
+"lat" : 47.609587,
+"lng" : -122.324214
+}
+},
+"icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+"id" : "aa48af00aeeb4d29dae46e96ec165717c68cc255",
+"name" : "Bartell Drugs Boren & Madison",
+"reference" : "CoQBewAAAO9nqfMDdeiAU2ugh0a9K_u2OD-247VOVUGrLgnHWdO2Iyk3VzKJlkNfxDMjXyZChkKIWhUr9qUGdZwx-NL0u0Y6Xaf6ZZO72SzesGBspgOvlXpLWbP85U9UjhaCuEY6l8Ks5xnX768kMqAksN8tAm9TPqNvxo5nQ4kBYkju5gcdEhD41nJvV30kZUU-QK4e2vElGhT2c_zTvrhRQu-vtqPkjiK7y1hnTw",
+"types" : [ "establishment" ],
+"vicinity" : "1101 Madison Street, Seattle"
+},
+{
+"geometry" : {
+"location" : {
+"lat" : 47.61393,
+"lng" : -122.320941
+}
+},
+"icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+"id" : "8b18866dacc49bbf4492767ac58c03f7386d9506",
+"name" : "Bartell Drugs",
+"opening_hours" : {
+"open_now" : true
+},
+"reference" : "CnRsAAAAfHDgkxEqNX0UyojPKf3LVUAD3KTao87Ef5K5uCsSDNt1Vn8Sr9ccyR_WVd7EOHiQFBsjUmF-ZVoTnrhJtKPjxl4Swr6Z3jo-fu5t9pq7KdKrzal_opZbN8OV_V9XR2M4U2sgE3LXfKGFXwi_ZzY1HBIQyyod5QhQDvwGYh81LNycpRoU9QLCRlGUogoEdbgHQQK4Isb5XYo",
+"types" : [ "pharmacy", "store", "health", "establishment" ],
+"vicinity" : "1407 Broadway, Seattle"
+},
+{
+"geometry" : {
+"location" : {
+"lat" : 47.612692,
+"lng" : -122.337083
+}
+},
+"icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+"id" : "528ac6e327dd31b29d6d6e1db82c396eeac45d73",
+"name" : "Bartell Drugstore Downtown",
+"opening_hours" : {
+"open_now" : true
+},
+"reference" : "CoQBeQAAAMuzsyeO8FNaA8lxCkqIMdzDm71T5Taam_lRYbp8uu27qZVcxLOdzpaMGVh7SrbEFWOMssxR962ns0nXBxVekz8euhh3OiAApAqZiaXPUqTBVgoOY9ru5-oYOqnJkhSntyquZjwMyAU6La_fc6JpOXKHLOViueImObC8Vag5gydUEhDaIYyG-7sq8PwUuRWHgDkVGhQa-NQsYK6eQW_-rKhIPCfgmjR7AQ",
+"types" : [ "pharmacy", "store", "health", "establishment" ],
+"vicinity" : "1628 5th Avenue, Seattle"
+},
+{
+"geometry" : {
+"location" : {
+"lat" : 47.613539,
+"lng" : -122.335634
+}
+},
+"icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+"id" : "bd024e64ca182dd5a53140a3c1f673855fdb949b",
+"name" : "Kelley-Ross Pharmacy",
+"reference" : "CoQBcgAAAMlUSMJkG8hGPJcWyHNzcl2OqC7OXwUyoRCZbGdSc1EVOGbL-SvkBWMQlr0g5eXiuYfCQsnik2_wEqNwrxKpiOWW64LvUsIrGhaVqfXebtvib35pEMzwEpH17DOzpEaUoerhVzJje5wJ9hHHRrYONMslIDpGtSRhuPpZEIjDMPMpEhBJ6ANuvvvXO0G8RzsabzWcGhSMenghvsNsMoO9S_6hJqWatLg6Dg",
+"types" : [ "pharmacy", "store", "health", "establishment" ],
+"vicinity" : "616 Olive Way, Seattle"
+}
+]

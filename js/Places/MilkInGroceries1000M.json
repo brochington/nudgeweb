@@ -1,0 +1,167 @@
+[
+{
+"geometry" : {
+"location" : {
+"lat" : 47.60785,
+"lng" : -122.34044
+}
+},
+"icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+"id" : "f4231a82cfe0633a6a32e63538e61c18277d01c0",
+"name" : "Paris Grocery",
+"opening_hours" : {
+"open_now" : true
+},
+"photos" : [
+{
+"height" : 676,
+"html_attributions" : [],
+"raw_reference" : {
+"fife_url" : "https://lh6.googleusercontent.com/-5G_c1GS4m5s/UdCGmmhzS3I/AAAAAACaBq8/vvqKC-nbQ4U/s1600/Paris%2BGrocery"
+},
+"width" : 1173
+}
+],
+"reference" : "CnRsAAAAoMR5sQbz1fdcIbdQ20qDix1HUOSCJzxJH2bJqVwH-WiysEpe-JHg16CfJJTnOMDlepvuKa8AyWDPBYRjkxG-uYjUQZk27WieMco3gLiaVTCSacCxZ6X52izwyAj9yJoLW8fRg5MGu_N9mRvo6jCGjxIQcoyPBgy-ecujp1PnatAk3BoUSvwxSQFwThOd_qwgJ9sBihbfBu4",
+"types" : [ "grocery_or_supermarket", "food", "store", "establishment" ],
+"vicinity" : "1418 Western Avenue, Seattle"
+},
+{
+"geometry" : {
+"location" : {
+"lat" : 47.60845,
+"lng" : -122.340447
+}
+},
+"icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+"id" : "536629e7ab6f6288da04ea24fc10ce2fbd40c267",
+"name" : "Pike Place Market PDA",
+"photos" : [
+{
+"height" : 1365,
+"html_attributions" : [
+"\u003ca href=\"https://plus.google.com/104422540068653327937\"\u003eMichael De Leon\u003c/a\u003e"
+],
+"raw_reference" : {
+"fife_url" : "https://lh5.googleusercontent.com/-xWyzGK-nYiI/UbEmDfvi5LI/AAAAAAAAAag/RgBAPU2ipPA/s0/Sony-00869.jpg"
+},
+"width" : 2048
+}
+],
+"rating" : 4.3,
+"reference" : "CoQBdAAAAOLmOho1SRXAf0xvBal16iWWCdtvjmQBYwswOMu-7O0hEPp_6v02mo40KbgO6vGuLGKbnPw_nSQVOlw5_4gjZDtA8qj6RHgJLgEVZB_dQhAEyt-gWCY1V5Pfddj425RZZMUDAD3EGNBZSk5_1ciWQO2XfywMzWHNNQx9RIkVQFPGEhAmd-_dGKEvyMscAIku9GX0GhQwaq2lXCPxM4mlFGn1DkWXkCo4oA",
+"types" : [ "food", "establishment" ],
+"vicinity" : "85 Pike Street, Seattle"
+},
+{
+"geometry" : {
+"location" : {
+"lat" : 47.594429,
+"lng" : -122.327142
+}
+},
+"icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+"id" : "6f629ff42a4bfee701568b8ca6b2c1d4e0ec8ead",
+"name" : "Big John's PFI",
+"opening_hours" : {
+"open_now" : false
+},
+"rating" : 4.7,
+"reference" : "CnRtAAAApYz3giypv4JzdPEp_dSutplL3fp_JoEPbIsMmMFiKGdT4f6Fc-ttssXUS7eabY_MQodQ-T0J_f80LC3JR9E6pO7bSfvAdz7YgC4Gx-N475NAqHuoUVNvF2y8QnGkESWTh9jzlancpgE3WwGJLLfIARIQHrulkKnK_JslcXJOwgrI6RoUh6Hst3Uwk1uHjpa1DMOBko_1lYc",
+"types" : [ "grocery_or_supermarket", "food", "store", "establishment" ],
+"vicinity" : "1001 6th Avenue S # B, Seattle"
+},
+{
+"geometry" : {
+"location" : {
+"lat" : 47.596708,
+"lng" : -122.327013
+}
+},
+"icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+"id" : "66f62e8ea4fad070ede19fa5f7aca6b814175a87",
+"name" : "Uwajimaya",
+"opening_hours" : {
+"open_now" : true
+},
+"photos" : [
+{
+"height" : 1536,
+"html_attributions" : [
+"\u003ca href=\"https://plus.google.com/107029629615893717637\"\u003eEric Gould\u003c/a\u003e"
+],
+"raw_reference" : {
+"fife_url" : "https://lh5.googleusercontent.com/-LFH-R12IOsY/UL-oJdqUytI/AAAAAAAAHLc/AGIy6phng1I/s0/849D35EA-3766-4001-BA2B-EE4FD51632C9.JPG"
+},
+"width" : 2048
+}
+],
+"rating" : 4.3,
+"reference" : "CnRoAAAAf0Zhn8D7xelYbqDxCMqtL83BoZ5rrIV510hjKsW3eTMSkgVM1vSdEPooAZKcxrSKvgJqwSBzWYsvvcEI36O2nOtwhKNOwi7L_0xPWFBrataNPbLBUc6aUNe8qrjHPqa9AkxDO263OTS-wN6FdQfbjRIQ0Q2sWZJo1vRqH4tN0r0xdBoUMFbTkaKILJYHb1reon_w_1EVxuo",
+"types" : [ "grocery_or_supermarket", "food", "store", "establishment" ],
+"vicinity" : "600 5th Avenue South #100, Seattle"
+},
+{
+"geometry" : {
+"location" : {
+"lat" : 47.608128,
+"lng" : -122.340775
+}
+},
+"icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+"id" : "06ace90220b0532410bb22c21364f23df74c7980",
+"name" : "Spanish Table",
+"opening_hours" : {
+"open_now" : true
+},
+"photos" : [
+{
+"height" : 853,
+"html_attributions" : [],
+"raw_reference" : {
+"fife_url" : "https://lh4.googleusercontent.com/-RDbA_jRcvSo/UBESr3oXE_I/AAAAAAAp8zo/ujFzwYJ8s-M/s0/Spanish%2BTable"
+},
+"width" : 1280
+}
+],
+"rating" : 4.2,
+"reference" : "CnRsAAAAqDeyuNTTSjEhDclOKcZZah-Sf5FeX7F5SuClGfuAW9_uZHt-YhKJvBHmfCS8Whcq20PrNYv2HZnr7CIuz6cVjxAZclq1QKdmGajdUpQ956gfBpaF_Y9J8hpJdBhItLUeGfI31kqvRxKTFhuw_GAJExIQFnVFv_OA0t2KEcPc6RkzaBoUEqDaiqTTKHYZU1v2CwnMqzCwOO4",
+"types" : [ "grocery_or_supermarket", "food", "store", "establishment" ],
+"vicinity" : "1426 Western Avenue, Seattle"
+},
+{
+"geometry" : {
+"location" : {
+"lat" : 47.608594,
+"lng" : -122.33999
+}
+},
+"icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/wine-71.png",
+"id" : "bfe4a47a9d0225cabec3c3ae0136643beb868c77",
+"name" : "DeLaurenti",
+"opening_hours" : {
+"open_now" : true
+},
+"photos" : [
+{
+"height" : 1365,
+"html_attributions" : [ "\u003ca href=\"https://plus.google.com/104111246635874032234\"\u003eZAGAT\u003c/a\u003e" ],
+"raw_reference" : {
+"fife_url" : "https://lh4.googleusercontent.com/-4Y3JFX2g_ZM/Ud7Msitz13I/AAAAAAACI_E/rlef7flhweo/s0/DeLaurenti-5.tif"
+},
+"width" : 2048
+}
+],
+"price_level" : 2,
+"rating" : 4.2,
+"reference" : "CnRpAAAAziYNc-rsnBlJ0Aedc0WEskYUXCTxzV8j56seaKvWHxT0nORHCCb5HsABy12fkOmzsufjD8wVo6OxUqKmRwRTAAJKvkUgExJNoYUejl6Mv8y9i5pkrh_O0eUPrdOyiJdQ49yebrZmkgyVA37l5rI8LxIQHoOIlhH3qHg8uLJjXGdioxoU78NtaO_DGOQIzmBqFAPm5GnlmbE",
+"types" : [
+"liquor_store",
+"restaurant",
+"grocery_or_supermarket",
+"food",
+"store",
+"establishment"
+],
+"vicinity" : "1435 1st Avenue, Seattle"
+}]
