@@ -1,7 +1,7 @@
 console.log("data");
 
 (function (window, undefined, ns){
-	ns = {}
+	var ns = {};
 	ns.testData = function(){
 		console.log("testData");
 	};
