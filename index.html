@@ -25,19 +25,70 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+        <div class="main-container">
+            <div class="main-header">
+                <!-- <div class="navbar navbar-default navbar-fixed-top" rol="navigation">
+                    <div class="navbar-header">
+                        <a href="#" class="navbar-brand">Nudge</a>
+                    </div>
+                </div> -->
+                
+            </div>
+            <div class="main-logo-container">
+                <h1>Nudge Rocks!</h1>
+                <div class="header-add-block">
+                    <button class="header-add-block-button" data-bind="click: nvm.addBlockToBlocksArray">Add a Block</button>
+                </div>
+            </div>
+            <div class="main-body">
+                <div class="todo-container">
+                    <div data-bind="foreach: blocksArray">
+                        <div class="todo-block">
+                            <div class="block-text-inputs">
+                                <div class="form-horizontal">
+                                    <div class="form-group">
+                                        <div class="col-md-4">
+                                            <input type="text" class="form-control" placeholder="notification">
+                                            <br>
+                                            <input type="text" class="form-control", placeholder="location">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="add-and-delete-container">
+                                <div class="add-div">
+                                    
+                                </div>
+                                <div class="delete-div">
+                                    <button data-bind="click: nvm.deleteBlock">Delete</button>
+                                </div>
+                            </div>
+                        </div>
+                            
+                    </div>
+                </div>
+            </div>
+            <div class="main-footer">
+                
+            </div>
+        </div>
+
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
+        <script src="js/vendor/underscore.js"></script>
         <script src="js/bootstrap.js"></script>
         <script src="js/vendor/knockout.js"></script>
         <script src="js/main.js"></script>
+        <script src="js/fixture/fixture.js"></script>
         <script src="js/app/data.js"></script>
-        <script src="js/app/api.js"></script>
         <script src="js/app/models.js"></script>
+        <script src="js/app/api.js"></script>
         <script src="js/app/viewmodel.js"></script>
         <script src="js/app/ui.js"></script>
+        <script src="js/app/app.js"></script>
+        <script></script>
 
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->

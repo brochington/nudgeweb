@@ -1,3 +1,4 @@
+console.log("knockout is here");
 // Knockout JavaScript library v3.0.0beta
 // (c) Steven Sanderson - http://knockoutjs.com/
 // License: MIT (http://www.opensource.org/licenses/mit-license.php)
