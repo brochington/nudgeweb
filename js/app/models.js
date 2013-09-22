@@ -9,8 +9,10 @@ console.log("models");
 			locator = Math.floor((Math.random()*100000)+1);
 
 			this.name = ko.observable(data.name);
-			this.locatorID = locator;
+			this.locatorID = ko.observable(locator);
 			this.locatorString = "[data-locator='" + locator + "']";
+			this.notificationField = ko.observable();
+			this.locationField = ko.observable();
 
 
 	};

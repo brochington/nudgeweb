@@ -6,10 +6,11 @@ console.log("fixture");
 	var blockArray1 = [
 		{
 			name : 'Broccoli'
-		},
-		{
-			name : "Dude"
 		}
+	];
+
+	var whatever = [
+
 	]
 	
 
@@ -17,6 +18,8 @@ console.log("fixture");
 		console.log("getBlockFixtureData");
 		return blockArray1;
 	};
+
+
 
 	window.Nudge.fixture = ns;
 })(window);

@@ -1,26 +1,184 @@
-.main-body {
-
+body {
+	/*background-color: #cccccc;*/
+	background-image: url(../img/noisy-texture2.png);
+	color: white;
 }
 
-.todo-container {
-
+textarea {
+	resize: none;
+	display: block;
 }
 
-.main-logo-container {
-	padding-top: 70px;
-	padding-bottom: 40px;
-	width: 235px;
+.todo-block-container {
+	width: 1000px;
 	margin: 0 auto;
 }
 
 .todo-block {
-	padding-top: 15px;
-	width: 80%;
+	background-color: rgba(100,100,100,0.5);
+	width: 1000px;
+	height: 280px;
+	overflow-y: hidden;
+	border:solid white 1px;
+	border-radius: 15px;
+}
+
+.todo-slide-div {
+	width: 2080px;
+	height: 270px;
+}
+
+/*This is the absolute div*/
+.input-div-1 {
+	position: absolute;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 15px;
+	background-color: rgba(100,100,100,0.8);
+	width: 400px;
+	height: 260px;
+	z-index: 200;
+}
+
+.textarea-1 {
+	width: 260px;
+	margin: 10px;
+}
+
+.location-input-div {
+	/*display: inline-block;*/
+	width: 300px;
+	margin: 0;
+	padding: 0;
+}
+
+.location-input {
+	margin: 10px;
+	width: 260px;
+}
+
+.section-div-1 {
+	position: relative;
+	display: inline-block;
+	padding-left: 100px;
+	top: 10px;
+	left: 420px;
+	/*border: solid white 2px;*/
+	width: 540px;
+	height: 260px;	
+	border-radius: 15px;
+	background-color: yellow;
+}
+
+.section-div-2 {
+	position: relative;
+	display: inline-block;
+	padding-left: 100px;
+	top: 10px;
+	left: 425px;
+	/*border: solid orange 2px;*/
+	width: 540px;
+	height: 260px;	
+	border-radius: 15px;	
+	background-color: blue;
+}
+
+.section-div-3 {
+	position: relative;
+	display: inline-block;
+	padding-left: 100px;
+	top: 10px;
+	left: 430px;
+	/*border: solid green 2px;*/
+	width: 540px;
+	height: 260px;	
+	border-radius: 15px;	
+	background-color: red;
+}
+
+.movement-buttons-div {
+	/*display: inline-block;*/
+	position: absolute;
+	top: -180px;
+	left: 290px;
+	position: relative;
+	height: 240px;
+	width: 80px;
+	/*border: solid white 1px;*/
+	border-radius: 15px;
+	background-color: rgba(150,150,150,0.6);
+}
+
+.button-1 {
+	position: relative;
+	top: 20px;
+	background-color: yellow;
+	height: 60px;
+	border-radius: 15px;
+	margin: 12px;
+}
+
+.map-marker {
+	color: red;
+	position: relative;
+	top: 14px;
+	left: 18px;
+	font-size: 30px;
+	text-align: center;
+
+}
+
+.button-2 {
+	position: relative;
+	top: 20px;
+	background-color: blue;
+	height: 60px;
+	border-radius: 15px;
+	margin: 12px;
+}
+
+.male {
+	color: yellow;
+	position: relative;
+	top: 14px;
+	left: 19px;
+	font-size: 30px;
+	text-align: center;
+}
+
+.button-3 {
+	position: relative;
+	top: 20px;
+	background-color: red;
+	height: 60px;
+	border-radius: 15px;
+	margin: 12px;
+}
+
+.time {
+	color: blue;
+	position: relative;
+	top: 15px;
+	left: 15px;
+	font-size: 30px;
+	text-align: center;
+}
+
+.submit-block-div {
+	position: absolute;
+	top: 187px;
+	left: 20px;
+	/*border: solid white 1px;*/
+	height: 55px;
+	width: 260px;
+	border-radius: 15px;
+	background-color: orange;
+
+}
+
+.submit-block-text {
+	width: 95px;
+	font-size: 30px;
 	margin: 0 auto;
-	border:solid gray 1px;
+	padding-top: 16px;
 }
-
-.block-text-inputs {
-	padding-left: 20px;
-}
-

@@ -18,6 +18,9 @@
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/nudge.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+        <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+        <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -26,14 +29,32 @@
 
         <!-- Add your site or application content here -->
         <div class="main-container">
-            <div class="main-header">
-                <!-- <div class="navbar navbar-default navbar-fixed-top" rol="navigation">
+            <!-- <div class="main-header">
+                <div class="navbar navbar-default navbar-fixed-top" rol="navigation">
                     <div class="navbar-header">
                         <a href="#" class="navbar-brand">Nudge</a>
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <form class="navbar-form navbar-right navbar-signin">
+                                <span class="form-group">
+                                    <input type="text" class="form-control"> 
+                                    
+                                </span>
+                                <span class="form-group">
+                                    <input type="text" class="form-control">
+                                </span>
+                                <span class="form-group">
+                                    <button type="button" class="btn btn-default navbar-btn" data-bind="click: nvm.userSignIn">Sign In</button>
+                                </span>
+
+                            </form>
+                            
+                        </ul>
                     </div>
-                </div> -->
+                </div>
                 
-            </div>
+            </div> -->
             <div class="main-logo-container">
                 <h1>Nudge Rocks!</h1>
                 <div class="header-add-block">
@@ -43,24 +64,33 @@
             <div class="main-body">
                 <div class="todo-container">
                     <div data-bind="foreach: blocksArray">
-                        <div class="todo-block">
-                            <div class="block-text-inputs">
-                                <div class="form-horizontal">
-                                    <div class="form-group">
-                                        <div class="col-md-4">
-                                            <input type="text" class="form-control" placeholder="notification">
-                                            <br>
-                                            <input type="text" class="form-control", placeholder="location">
+                        <div class="todo-block-container" data-bind="attr: {'data-locator' : locatorID}">
+                            <div class="todo-block">
+                                <div class="input-div-1">
+                                        <div class="location-input-div">
+                                            <textarea class="textarea-1" name="" id="" cols="40" rows="5" placeholder="notification"></textarea>  
+                                            <input class="location-input" type="text" class="location-input" placeholder="location">    
+                                        </div>
+                                        <div class="movement-buttons-div">
+                                            <div class="button-1">
+                                                <span class="icon-map-marker map-marker"></span>
+                                            </div>
+                                            <div class="button-2">
+                                                <span class="icon-male male"></span>
+                                                
+                                            </div>
+                                            <div class="button-3">
+                                                <span class="icon-time time"></span>
+                                            </div>
+                                        </div>
+                                        <div class="submit-block-div">
+                                            <div class="submit-block-text">Submit</div>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="add-and-delete-container">
-                                <div class="add-div">
-                                    
-                                </div>
-                                <div class="delete-div">
-                                    <button data-bind="click: nvm.deleteBlock">Delete</button>
+                                <div class="todo-slide-div">
+                                    <div class="section-div-1"></div>
+                                    <div class="section-div-2"></div>
+                                    <div class="section-div-3"></div>
                                 </div>
                             </div>
                         </div>

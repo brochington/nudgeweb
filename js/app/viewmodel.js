@@ -8,6 +8,8 @@ var nvm = function(){
 
 	var blocksArray = ko.observableArray([]);
 	var testName = ko.observable("Broch");
+	var signinName = ko.observable();
+	var signinPassword = ko.observable();
 
 	var init = function(){
 		models = data.setModels();
@@ -30,9 +32,15 @@ var nvm = function(){
 		console.log("deleteBlock");
 		console.log(ui);
 		console.log(e);
-		console.log(e.target);
-		$(e.target).parents().fadeOut();
+		console.log(ui.locatorString);
+		$(ui.locatorString).fadeOut();
+		blocksArray(_.without(blocksArray(), ui));
 	}
+
+	var userSignIn = function(){
+		console.log("userSignIn");
+	}
+
 
 
 
@@ -43,6 +51,9 @@ var nvm = function(){
 
 		//methods
 		addBlockToBlocksArray : addBlockToBlocksArray,
-		deleteBlock : deleteBlock
+		deleteBlock : deleteBlock,
+		userSignIn : userSignIn
 	};
 }();
+
+
