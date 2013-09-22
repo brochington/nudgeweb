@@ -1,6 +1,6 @@
 body {
 	/*background-color: #cccccc;*/
-	background-image: url(../img/noisy-texture2.png);
+	/*background-image: url(../img/noisy-texture2.png);*/
 	color: white;
 }
 
@@ -9,40 +9,103 @@ textarea {
 	display: block;
 }
 
+input {
+	font-size: 30px;
+	height: 40px;
+	color: blue;	
+}
+
+.main-logo-container {
+	padding-bottom: 140px;
+}
+
+.logo-div {
+	width: 600px;
+	margin: 0 auto;
+}
+
+.header-add-block-button {
+	position: relative;
+	top:50px;
+	left: 38%;
+	width: 200px;
+	height: 70px;
+	background-color: yellow;
+	border-radius: 15px;
+	border: solid blue 1px;	
+
+}
+
+.header-add-block-button:hover {
+	background-color: orange;
+}
+
+.header-add-block-button-text {
+	position: relative;
+	font-size: 26px;
+	top: 24px;
+	left: 22px;
+	/*margin: 0 auto;*/
+	text-align: center;
+	width: 155px;
+	height: 70px;
+	color: blue;
+
+}
+
+.search-nudges-div {
+	position: relative;
+	left: 30%;
+	top: 100px;
+	width: 400px;
+	font-size: 30px;
+}
+
+.search-nudges-input {
+	font-size: 30px !important;
+	height: 40px !important;
+	color: blue !important;
+	height: 40px !important;
+	width: 400px;
+}
+
 .todo-block-container {
 	width: 1000px;
 	margin: 0 auto;
+	padding-top: 40px;
 }
 
 .todo-block {
 	background-color: rgba(100,100,100,0.5);
 	width: 1000px;
-	height: 280px;
+	height: 290px;
 	overflow-y: hidden;
-	border:solid white 1px;
+	/*border:solid white 1px;*/
 	border-radius: 15px;
 }
 
 .todo-slide-div {
 	width: 2080px;
-	height: 270px;
+	height: 280px;
 }
 
 /*This is the absolute div*/
 .input-div-1 {
 	position: absolute;
-	padding: 10px;
-	margin: 10px;
-	border-radius: 15px;
-	background-color: rgba(100,100,100,0.8);
-	width: 400px;
+	/*padding: 12px;*/
+	/*margin-top: 10px;*/
+	border-radius: 4px 0 15px 0;
+	background-color: rgba(10,10,10,0.8);
+	width: 395px;
 	height: 260px;
 	z-index: 200;
+	overflow: hidden;
 }
 
 .textarea-1 {
 	width: 260px;
 	margin: 10px;
+	font-size: 20px !important;
 }
 
 .location-input-div {
@@ -53,6 +116,8 @@ textarea {
 }
 
 .location-input {
+	height: 30px !important;
+	font-size: 20px !important;
 	margin: 10px;
 	width: 260px;
 }
@@ -96,13 +161,31 @@ textarea {
 	background-color: red;
 }
 
+.section-white-bgd {
+	position: absolute;
+	left: 20px;
+	top: 20px;
+	height:220px;
+	width:495px;
+	background-color: rgba(250,250,250,0.8);
+	border-radius: 15px;
+}
+
+.section-white-bgd p {
+	font-size: 30px;
+	padding-top: 20px;
+	padding-left: 10px;
+}
+
+
+
 .movement-buttons-div {
 	/*display: inline-block;*/
 	position: absolute;
 	top: -180px;
 	left: 290px;
 	position: relative;
-	height: 240px;
+	height: 230px;
 	width: 80px;
 	/*border: solid white 1px;*/
 	border-radius: 15px;
@@ -111,7 +194,7 @@ textarea {
 
 .button-1 {
 	position: relative;
-	top: 20px;
+	top: 13px;
 	background-color: yellow;
 	height: 60px;
 	border-radius: 15px;
@@ -130,7 +213,7 @@ textarea {
 
 .button-2 {
 	position: relative;
-	top: 20px;
+	top: 13px;
 	background-color: blue;
 	height: 60px;
 	border-radius: 15px;
@@ -148,7 +231,7 @@ textarea {
 
 .button-3 {
 	position: relative;
-	top: 20px;
+	top: 13px;
 	background-color: red;
 	height: 60px;
 	border-radius: 15px;
@@ -167,18 +250,55 @@ textarea {
 .submit-block-div {
 	position: absolute;
 	top: 187px;
-	left: 20px;
+	left: 10px;
 	/*border: solid white 1px;*/
 	height: 55px;
-	width: 260px;
+	width: 125px;
 	border-radius: 15px;
-	background-color: orange;
+	background-color: green;
 
 }
 
 .submit-block-text {
-	width: 95px;
+	width: 65px;
 	font-size: 30px;
 	margin: 0 auto;
 	padding-top: 16px;
+}
+
+.delete-block-div {
+	position: absolute;
+	top: 187px;
+	left: 145px;
+	/*border: solid white 1px;*/
+	height: 55px;
+	width: 125px;
+	border-radius: 15px;
+	background-color: orange;	
+}
+
+.delete-block-text {
+	width: 85px;
+	font-size: 30px;
+	margin: 0 auto;
+	padding-top: 16px;
+}	
+
+.time-hours {
+	width: 100px; 
+	padding-left: 10px;
+	position: relative;
+	left: 10px;
+}
+
+.time-am-pm {
+	width: 60px;
+	position: relative;
+	left: 10px;
+}
+
+.time-date {
+	height: 30px !important;
+	position: relative;
+	left: 10px;
 }

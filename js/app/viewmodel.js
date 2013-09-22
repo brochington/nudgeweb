@@ -25,6 +25,7 @@ var nvm = function(){
 		console.log("adding block to array");
 		console.log(models);
 		// add task
+
 		blocksArray.unshift(new models.Block({name: "yoyoyo"}))
 	}
 
@@ -34,7 +35,10 @@ var nvm = function(){
 		console.log(e);
 		console.log(ui.locatorString);
 		$(ui.locatorString).fadeOut();
-		blocksArray(_.without(blocksArray(), ui));
+		window.setTimeout(function(){
+			blocksArray(_.without(blocksArray(), ui));	
+		}, 1000);
+		
 	}
 
 	var userSignIn = function(){

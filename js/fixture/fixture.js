@@ -5,7 +5,12 @@ console.log("fixture");
 
 	var blockArray1 = [
 		{
-			name : 'Broccoli'
+			notificationField : "hello",
+			locationField : 'Right here'
+		},
+		{
+			notificationField : "Buy Milk",
+			locationField : 'QFC'
 		}
 	];
 

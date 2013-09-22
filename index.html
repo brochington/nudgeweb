@@ -29,36 +29,20 @@
 
         <!-- Add your site or application content here -->
         <div class="main-container">
-            <!-- <div class="main-header">
-                <div class="navbar navbar-default navbar-fixed-top" rol="navigation">
-                    <div class="navbar-header">
-                        <a href="#" class="navbar-brand">Nudge</a>
-                        <ul class="nav navbar-nav">
-                            <li class="active"><a href="#">Home</a></li>
-                            <li><a href="#">About</a></li>
-                            <form class="navbar-form navbar-right navbar-signin">
-                                <span class="form-group">
-                                    <input type="text" class="form-control"> 
-                                    
-                                </span>
-                                <span class="form-group">
-                                    <input type="text" class="form-control">
-                                </span>
-                                <span class="form-group">
-                                    <button type="button" class="btn btn-default navbar-btn" data-bind="click: nvm.userSignIn">Sign In</button>
-                                </span>
-
-                            </form>
-                            
-                        </ul>
-                    </div>
-                </div>
-                
-            </div> -->
             <div class="main-logo-container">
-                <h1>Nudge Rocks!</h1>
+                <div class="logo-div">
+                    <img src="img/logo_A_v7.jpg" alt="">
+                </div>
                 <div class="header-add-block">
-                    <button class="header-add-block-button" data-bind="click: nvm.addBlockToBlocksArray">Add a Block</button>
+                    <div class="header-add-block-button">
+                        <div class="header-add-block-button-text" data-bind="click: nvm.addBlockToBlocksArray">
+                            Add a Nudge
+                        </div>
+                    </div>
+                    <!-- <button class="header-add-block-button" data-bind="click: nvm.addBlockToBlocksArray">Add a Block</button> -->
+                </div>
+                <div class="search-nudges-div" >
+                    <input class="search-nudges-input" type="text" placeholder="Search your Nudges">
                 </div>
             </div>
             <div class="main-body">
@@ -68,29 +52,81 @@
                             <div class="todo-block">
                                 <div class="input-div-1">
                                         <div class="location-input-div">
-                                            <textarea class="textarea-1" name="" id="" cols="40" rows="5" placeholder="notification"></textarea>  
-                                            <input class="location-input" type="text" class="location-input" placeholder="location">    
+                                            <textarea class="textarea-1" name="" id="" cols="40" rows="5" placeholder="notification" data-bind="value: notificationField"></textarea>  
+                                            <input class="location-input" type="text" class="location-input" placeholder="location" data-bind="value: locationField">    
                                         </div>
                                         <div class="movement-buttons-div">
-                                            <div class="button-1">
+                                            <div class="button-1" data-bind="click: gotoMap">
                                                 <span class="icon-map-marker map-marker"></span>
                                             </div>
-                                            <div class="button-2">
+                                            <div class="button-2" data-bind="click: gotoPeople">
                                                 <span class="icon-male male"></span>
                                                 
                                             </div>
-                                            <div class="button-3">
+                                            <div class="button-3" data-bind="click: gotoTime">
                                                 <span class="icon-time time"></span>
                                             </div>
                                         </div>
-                                        <div class="submit-block-div">
-                                            <div class="submit-block-text">Submit</div>
+                                        <div class="submit-block-div" data-bind="click: updateBlock">
+                                            <div class="submit-block-text">Save</div>
+                                        </div>
+                                        <div class="delete-block-div">
+                                            <div class="delete-block" data-bind="click: nvm.deleteBlock">
+                                                <div class="delete-block-text">Delete</div>
+                                            </div>
                                         </div>
                                     </div>
-                                <div class="todo-slide-div">
-                                    <div class="section-div-1"></div>
-                                    <div class="section-div-2"></div>
-                                    <div class="section-div-3"></div>
+                                <div class="todo-slide-div" data-bind="attr: {'data-slide' :slideID}">
+                                    <div class="section-div-1">
+                                        <div class="section-white-bgd"></div>
+                                    </div>
+                                    <div class="section-div-2">
+                                        <div class="section-white-bgd"></div>
+                                    </div>
+                                    <div class="section-div-3">
+                                        <div class="section-white-bgd">
+                                            <p>Nudge Me After:</p>
+                                            <select  class="time-hours" name="" id="" class=" ">
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                                <option value="6">6</option>
+                                                <option value="7">7</option>
+                                                <option value="8">8</option>
+                                                <option value="9">9</option>
+                                                <option value="10">10</option>
+                                                <option value="11">11</option>
+                                                <option value="12">12</option>
+                                            </select>
+                                            <select class="time-am-pm" name="" id="">
+                                                <option value="1">AM</option>
+                                                <option value="2">PM</option>
+                                            </select>
+                                            <input class="time-date" type="date">
+                                            <p>Until:</p>
+                                            <select  class="time-hours" name="" id="" class=" ">
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                                <option value="6">6</option>
+                                                <option value="7">7</option>
+                                                <option value="8">8</option>
+                                                <option value="9">9</option>
+                                                <option value="10">10</option>
+                                                <option value="11">11</option>
+                                                <option value="12">12</option>
+                                            </select>
+                                            <select class="time-am-pm" name="" id="">
+                                                <option value="1">AM</option>
+                                                <option value="2">PM</option>
+                                            </select>
+                                            <input class="time-date" type="date">
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
